@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<fcntl.h>
 #include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
@@ -39,10 +38,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putchar_fd(n + '0', fd);
 	return ;
 }
-/*
-int main()
-{
-	int fd = open("test.txt", O_RDWR);
-	ft_putnbr_fd(-2147483648, fd);
-	return 0;
-}*/
