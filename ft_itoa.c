@@ -12,7 +12,7 @@
 
 #include"libft.h"
 
-char	*ft_rempli(char *s, long long int n, int l)
+static char	*ft_rempli(char *s, long long int n, int l)
 {
 	int	d;
 
