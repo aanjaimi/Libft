@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<fcntl.h>
 #include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
@@ -27,10 +26,3 @@ void	ft_putstr_fd(char *s, int fd)
 	}
 	return ;
 }
-/*
-int main()
-{
-	int fd = open("test.txt", O_RDWR);
-	ft_putstr_fd("ayoub", fd);
-	return 0;
-}*/
