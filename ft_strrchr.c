@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<string.h>
 #include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
@@ -27,14 +25,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
-/*
-int main()
-{
-	char *p;
-	p = ft_strrchr("My name is ayoub anjaimi",0);
-	printf("%s\n",p);
-	char *s;
-	s = strrchr("My name is ayoub anjaimi",0);
-	printf("%s\n",s);
-	return(0);
-}*/
