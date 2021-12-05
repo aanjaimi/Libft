@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<stddef.h>
-#include<string.h>
 #include "libft.h"
 
 void	*ft_memset(void *b, int c, size_t len)
@@ -27,11 +24,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-/*
-int main()
-{
-	unsigned char s[] = "ayoub anjaimi 9";
-	printf("%s\n",memset(s, '0', 15));
-	printf("%s",ft_memset(s, '0', 15));
-	return(0);
-}*/
