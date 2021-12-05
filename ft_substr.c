@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<stdlib.h>
-#include<stddef.h>
 #include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
@@ -39,11 +36,4 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		return (ptr);
 	*(ptr + i) = 0;
 	return (ptr);
-}
-
-int main()
-{
-	char s[20] = "ayoub";
-	printf("%s",ft_substr(s,1,7));
-	return (0);
 }
