@@ -12,7 +12,6 @@
 
 #include<stdlib.h>
 #include<stddef.h>
-#include<stdio.h>
 #include "libft.h"
 
 void	*ft_calloc(size_t count, size_t size)
@@ -27,16 +26,3 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, k);
 	return (ptr);
 }
-/*
-int main()
-{
-	char *s;
-	s = ft_calloc(4, 3);
-	int i = 0;
-	while (i < 15)
-	{
-		printf("%d",s[i]);
-		i++;
-	}
-	return 0;
-}*/
