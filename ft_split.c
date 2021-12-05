@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
 #include "libft.h"
 
 static int	ft_nbr_word(char const *s, char c)
@@ -83,23 +80,3 @@ char	**ft_split(char const *s, char c)
 	sp = ft_return(s, sp, c);
 	return (sp);
 }
-/*
-int main()
-{
-    int i;
-    char s[] = " my name is ayoub anjaimi 1999 ";
-    char c = ' ';
-    char **p;
-
-    i = 0;
-    printf("%d\n",ft_nbr_word(s, c));
-    p = ft_split(s, c);
-    while (i < ft_nbr_word(s, c))
-    {
-        printf("%s\n",p[i]);
-        i++;
-    }
-	while (i < ft_nbr_word(s, c))
-		printf("%s\n",ft_split(s ,c)[i++]);
-    return (0);
-}*/
