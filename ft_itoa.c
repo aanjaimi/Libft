@@ -9,9 +9,7 @@
 /*   Updated: 2021/11/16 11:02:54 by aanjaimi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include<stdio.h>
-#include<stddef.h>
-#include <strings.h>
+
 #include"libft.h"
 
 char	*ft_rempli(char *s, long long int n, int l)
@@ -61,9 +59,3 @@ char	*ft_itoa(int n)
 	s = ft_rempli(s, k, i);
 	return (s);
 }
-/*
-int main()
-{
-    printf("%s", ft_itoa(1234));
-    return 0;
-}*/
