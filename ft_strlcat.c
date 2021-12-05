@@ -10,10 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<stddef.h>
-#include<string.h>
-//#include "libft.h"
+#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
@@ -36,14 +33,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 		return (i + dstsize);
 	return (i + j);
 }
-/*
-int main()
-{
-	char	*dest = "ayoub";
-	char	src[8] = "houssam";
-
-	printf("%zu\n",strlcat(dest,src,13));
-	printf("%s",dest);
-	
-	return (0);
-}*/
