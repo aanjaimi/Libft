@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
 #include"libft.h"
 
 static int	ft_test_char(char c, char const *set)
@@ -58,12 +55,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ptr[j] = 0;
 	return (ptr);
 }
-/*
-int	main()
-{
-	char const s[] = "";
-	char const set[] = "    ";
-	char *p = ft_strtrim(s, set);
-	printf("%s",p);
-	return (0);
-}*/
