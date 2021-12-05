@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<fcntl.h>
 #include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
@@ -19,10 +18,3 @@ void	ft_putendl_fd(char *s, int fd)
 	ft_putchar_fd('\n', fd);
 	return ;
 }
-/*
-int main()
-{
-	int fd = open("test.txt", O_RDWR);
-	ft_putendl_fd("anjaimi", fd);
-	return 0;
-}*/
