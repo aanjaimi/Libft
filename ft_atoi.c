@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
 #include "libft.h"
 
 int	ft_atoi(const char *str)
@@ -37,10 +36,3 @@ int	ft_atoi(const char *str)
 	}
 	return (n * signe);
 }
-/*
-int main()
-{
-	printf("%d",ft_atoi(" 	+---+-+-+-8745vhds6764"));
-	printf("%d",atoi(" 	+---+-+-+-8745vhds6764"));
-	return(0);
-}*/
