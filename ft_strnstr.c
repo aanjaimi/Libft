@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<stddef.h>
-#include<string.h>
 #include "libft.h"
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
@@ -40,11 +37,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-/*
-int main()
-{
-	char *s;
-	s = ft_strnstr("My name is ayoub anjaimi","ayoub",12);
-	printf("%s",s);
-	return(0);
-}*/
