@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<string.h>
-#include<stddef.h>
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
@@ -33,11 +30,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return ((char *)(s + i));
 }
-/*
-int main()
-{
-	const char *s = "ayoub";
-	printf("%s\n",ft_memchr(0, 0, 0));
-	printf("%s",memchr(0, 0, 0));
-	return(0);
-}*/
