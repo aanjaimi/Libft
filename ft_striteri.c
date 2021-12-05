@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
 #include "libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
@@ -27,17 +26,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	}
 	return ;
 }
-/*
-void	f(unsigned int i, char *a)
-{
-	*a = 's';
-	return ;
-}
-
-int main()
-{
-	char s[] = "aaaa";
-	ft_striteri(s, f);
-	printf("%s",s);
-	return (0);
-}*/
