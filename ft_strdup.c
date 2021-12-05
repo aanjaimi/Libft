@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<stdlib.h>
 #include "libft.h"
 
 char	*ft_strdup(const char	*src)
@@ -37,9 +35,3 @@ char	*ft_strdup(const char	*src)
 	dest[j] = 0;
 	return (dest);
 }
-/*
-int main()
-{
-	printf("%s",ft_strdup("ayoub"));
-	return (0);
-}*/
