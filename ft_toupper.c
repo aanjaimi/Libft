@@ -10,19 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include<stdio.h>
-
 int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (c - 32);
 	return (c);
 }
-
-/*int main()
-{
-	unsigned char s;
-	s = (unsigned char)ft_toupper('W');
-	printf("%c",s);
-	return(0);
-}*/
