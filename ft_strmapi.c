@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include<stdlib.h>
 #include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
@@ -35,16 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	return (p);
 }
-/*
-char	f(unsigned int i, char c)
-{
-	c = 'a';
-	return (c);
-}
-
-int main()
-{
-	char s[] = "anjaimi";
-	printf("%s",ft_strmapi(s,f));
-	return (0);
-}*/
